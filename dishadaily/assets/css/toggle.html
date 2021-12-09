@@ -1,0 +1,28 @@
+<html>
+   <head>
+      <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <style>
+        .new {
+            font-size: 22px;  
+        }
+     </style>
+   </head>
+   <body>
+     
+      <div class="add">
+        <p class="old">Click any of the link above and you can see the changes.</p>
+      </div>
+      <script>
+        $(document).ready(function(){
+            $('.add').on('click', function(){
+                if($(this).find(".old").length){
+                    $(this).find(".old").removeClass( "old" ).addClass( "new" );
+                }else if($(this).find(".new").length){
+                    $(this).find(".new").removeClass( "new" ).addClass( "old" );
+                }
+            });
+        });
+         </script>
+
+   </body>
+</html>
