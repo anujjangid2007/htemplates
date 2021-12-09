@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CMS</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- css cdn -->
+    <link rel="stylesheet" href="assets/css/boostrap-light.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- font-awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <!-- font family -->
+    <link href="https://fonts.googleapis.com/css2?family=Faustina&family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- light slider -->
+    <link rel="stylesheet" href="file/css/lightslider.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+</head>
+<body>
+    <!-- sidebar start -->
+    <div class="sidebar">
+        <div class="logo-details">
+            <i class='bx bxl-c-plus-plus icon'></i>
+            <div class="logo_name"><img class="logo" src="assets/images/black_logo.png" alt="Hocalwire"></div>
+            <div class="sidebar-bars">
+                <i class="fas fa-bars" id="btn"></i>
+            </div>
+        </div>
+        <div class="sidebar-menu">
+            <ul class="nav-list">
+                <!-- <li>
+                        <i class="fas fa-border-all"></i>
+                         <input type="text" placeholder="Search...">
+                         <span class="tooltip">Search</span>
+                        </li> -->
+                <li class="active">
+                    <a href="#">
+                        <i class="fas fa-border-all"></i>
+                        <span class="links_name">Dashboard</span>
+                    </a>
+                    <span class="tooltip">Dashboard</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-user-friends"></i>
+                        <span class="links_name">Subscribers</span>
+                    </a>
+                    <span class="tooltip">Subscribers</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-clipboard-list"></i>
+                        <span class="links_name">Planning</span>
+                    </a>
+                    <span class="tooltip">Planning</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-microphone"></i>
+                        <span class="links_name">Reporters</span>
+                    </a>
+                    <span class="tooltip">Reporters</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-border-all"></i>
+                        <span class="links_name">News Room</span>
+                    </a>
+                    <span class="tooltip">News Room</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-play"></i>
+                        <span class="links_name">Live Room</span>
+                    </a>
+                    <span class="tooltip">Live Room</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-border-all"></i>
+                        <span class="links_name">Buzz</span>
+                    </a>
+                    <span class="tooltip">Buzz</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-book-open"></i>
+                        <span class="links_name">Stories</span>
+                    </a>
+                    <span class="tooltip">Stories</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-file-alt"></i>
+                        <span class="links_name">News</span>
+                    </a>
+                    <span class="tooltip">News</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-border-all"></i>
+                        <span class="links_name">AMP Stories</span>
+                    </a>
+                    <span class="tooltip">AMP Stories</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-chrome"></i>
+                        <span class="links_name">News Bulletin</span>
+                    </a>
+                    <span class="tooltip">News Bulletin</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-border-all"></i>
+                        <span class="links_name">Videofy</span>
+                    </a>
+                    <span class="tooltip">Videofy</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-border-all"></i>
+                        <span class="links_name">Social</span>
+                    </a>
+                    <span class="tooltip">Social</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-border-all"></i>
+                        <span class="links_name">Subscriptions</span>
+                    </a>
+                    <span class="tooltip">Subscriptions</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-border-all"></i>
+                        <span class="links_name">Content Management</span>
+                    </a>
+                    <span class="tooltip">Content Management</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-border-all"></i>
+                        <span class="links_name">System Management</span>
+                    </a>
+                    <span class="tooltip">System Management</span>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebar-powered-by">
+            <div class="profile-details">
+                <span>Powered By:</span>
+                <img class="poweredby-img" src="assets/images/black_logo.png">
+            </div>
+        </div>
+    </div>
+    <!-- sidebar end -->
+    <!-- main content start -->
+    <section class="home-section">
+        <div class="main-content">
+            <div class="d-flex flex-wrap top-header">
+                <div class="top-header-left">
+                    <form class="top-header-search">
+                        <button class="top-header-btn" type="submit"><i class="fas fa-search"></i></button>
+                        <input class="top-header-srch" type="text" placeholder="Search.." name="search2">
+                      </form>
+                </div>
+                <div class="top-header-right">
+                    <div class="right-profile flex-wrap">
+                        <div class="accent">
+                            <span class="color-light"></span>
+                            <span class="accent-name">Accent</span>
+                        </div>
+                        <div class="h-notification">
+                            <span class="fa-stack has-badge" data-count="1">
+                                <i class="fas fa-bell" aria-hidden="true"></i>
+                              </span>
+                        </div>
+                        <div class="profile">
+                            <div class="h-avatar">
+                                <img src="assets/images/avatar.jpeg" alt="avatar">
+                            </div>
+                            <div class="h-profile">
+                                <div class="profile-name">Hello
+                                    <span>Akhil!</span>
+                                </div>
+                                <div class="profile-email">
+                                    akhil@hocalwire.com
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header">
+                <div class="dashboard-section">
+                    <h4 class="Header-name">Dashboard</h4>
+                    <p class="header-content">All the latest updates an stats can be monitored here!</p>
+                </div>
+            </div>
+            <div class="after-dashboard">
+                <div class="h-lightslider mb-2">
+                    <div class="">
+                        <div class="d-flex projects">
+                            <div class="project-status">Projects Status</div>
+                            <div class="project-time">
+                                <span class="h-hours">1h</span>
+                                <span class="h-hours">6h</span>
+                                <span class="h-hours active">12h</span>
+                                <span class="h-hours">24h</span>
+                            </div>
+                        </div>
+                        <ul id="lightSlider">
+                            <li>
+                                <div class="h-slider">
+                                    <div><h4 class="h-slider-title">Social Shares</h4></div>
+                                    <div><h3 class="h-slider-number">23.2k</h3></div>
+                                    <div class="h-slider-arrow-number text-red">
+                                        <i class="fas fa-arrow-down"></i>
+                                        <span>0.45k</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="h-slider">
+                                    <div><h4 class="h-slider-title">Social Shares</h4></div>
+                                    <div><h3 class="h-slider-number">23.2k</h3></div>
+                                    <div class="h-slider-arrow-number text-red">
+                                        <i class="fas fa-arrow-down"></i>
+                                        <span>0.45k</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="h-slider">
+                                    <div><h4 class="h-slider-title">Social Shares</h4></div>
+                                    <div><h3 class="h-slider-number">23.2k</h3></div>
+                                    <div class="h-slider-arrow-number text-green">
+                                        <i class="fas fa-arrow-down"></i>
+                                        <span >0.45k</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="h-slider">
+                                    <div><h4 class="h-slider-title">Social Shares</h4></div>
+                                    <div><h3 class="h-slider-number">23.2k</h3></div>
+                                    <div class="h-slider-arrow-number text-red">
+                                        <i class="fas fa-arrow-down"></i>
+                                        <span>0.45k</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="h-slider">
+                                    <div><h4 class="h-slider-title">Social Shares</h4></div>
+                                    <div><h3 class="h-slider-number">23.2k</h3></div>
+                                    <div class="h-slider-arrow-number text-red">
+                                        <i class="fas fa-arrow-down"></i>
+                                        <span >0.45k</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="h-slider">
+                                    <div><h4 class="h-slider-title">Social Shares</h4></div>
+                                    <div><h3 class="h-slider-number">23.2k</h3></div>
+                                    <div class="h-slider-arrow-number text-red">
+                                        <i class="fas fa-arrow-down"></i>
+                                        <span>0.45k</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="h-slider">
+                                    <div><h4 class="h-slider-title">Social Shares</h4></div>
+                                    <div><h3 class="h-slider-number">23.2k</h3></div>
+                                    <div class="h-slider-arrow-number text-red">
+                                        <i class="fas fa-arrow-down"></i>
+                                        <span>0.45k</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="h-slider">
+                                    <div><h4 class="h-slider-title">Social Shares</h4></div>
+                                    <div><h3 class="h-slider-number">23.2k</h3></div>
+                                    <div class="h-slider-arrow-number text-red">
+                                        <i class="fas fa-arrow-down"></i>
+                                        <span>0.45k</span>
+                                    </div>
+                                </div>
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+                <div class="topic-finished mb-2">
+                    <div class="d-flex flex-wrap mb-2">
+                        <div class="project-status">Projects Status</div>
+                        <div class="project-time">
+                           <div class="left-arrow"><i class="fas fa-chevron-left"></i></div>
+                           <div class="center-calender">
+                               <i class="fas fa-calendar-alt"></i>
+                                <input class="h-date" type="text" value="Aug 28, 2021">
+                            </div>
+                           <div class="right-arrow"><i class="fas fa-chevron-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap record-section">
+                        <div class="records">
+                            <div class="d-flex total-record">
+                                <div class="left-topic-finished">
+                                    <label class="topic-finished-label" for="file">Topics Finished</label><br>
+                                    <progress id="file" value="32" max="100"> 32% </progress>
+                                </div>
+                                <div class="right-topic-finished">
+                                    <h2 class="h-got-record">124</h2>
+                                    <h6 class="h-from-record">/143</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="records">
+                            <div class="d-flex total-record">
+                                <div class="left-topic-finished">
+                                    <label class="topic-finished-label" for="file">Topics Finished</label><br>
+                                    <progress id="file" value="32" max="100"> 32% </progress>
+                                </div>
+                                <div class="right-topic-finished">
+                                    <h2 class="h-got-record">124</h2>
+                                    <h6 class="h-from-record">/143</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="records">
+                            <div class="d-flex total-record">
+                                <div class="left-topic-finished">
+                                    <label class="topic-finished-label" for="file">Topics Finished</label><br>
+                                    <progress id="file" value="32" max="100"> 32% </progress>
+                                </div>
+                                <div class="right-topic-finished">
+                                    <h2 class="h-got-record">124</h2>
+                                    <h6 class="h-from-record">/143</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="records">
+                            <div class="d-flex total-record">
+                                <div class="left-topic-finished">
+                                    <label class="topic-finished-label" for="file">Topics Finished</label><br>
+                                    <progress id="file" value="32" max="100"> 32% </progress>
+                                </div>
+                                <div class="right-topic-finished">
+                                    <h2 class="h-got-record">124</h2>
+                                    <h6 class="h-from-record">/143</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="records">
+                            <div class="d-flex total-record">
+                                <div class="left-topic-finished">
+                                    <label class="topic-finished-label" for="file">Topics Finished</label><br>
+                                    <progress id="file" value="32" max="100"> 32% </progress>
+                                </div>
+                                <div class="right-topic-finished">
+                                    <h2 class="h-got-record">124</h2>
+                                    <h6 class="h-from-record">/143</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="topic-status mb-2">
+                    <div class="d-flex mb-2">
+                        <div class="project-status">Topic Status</div>
+                        <div class="project-time">
+                            <div class="left-arrow"><i class="fas fa-chevron-left"></i></div>
+                            <div class="center-calender">
+                                <i class="fas fa-calendar-alt"></i>
+                                 <input class="h-date" type="text" value="Aug 28, 2021">
+                             </div>
+                            <div class="right-arrow"><i class="fas fa-chevron-right"></i></div>
+                         </div>
+                    </div>
+                    <div class="h-table">
+                        <table class="bordered">
+                        <thead>
+                            <tr>
+                                <th class="br-tl" rowspan="2">Topic</th>
+                                <th colspan="3">Projects</th>
+                                <th class="br-tr" rowspan="2">Status</th>
+                            </tr>
+                            <tr>
+                                <th>Planned</th>
+                                <th>in progress</th>
+                                <th>Editor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Anuj kumar</td>
+                                <td>145</td>
+                                <td>124</td>
+                                <td>Jane Cooper</td>
+                                <td>Status</td>
+                            </tr>
+                            <tr>
+                                <td>Suresh Jangir</td>
+                                <td>145</td>
+                                <td>124</td>
+                                <td>Jane Cooper</td>
+                                <td>Status</td>
+                            </tr>
+                            <tr>
+                                <td>Ashwani Kumar</td>
+                                <td>145</td>
+                                <td>124</td>
+                                <td>Jane Cooper</td>
+                                <td>Status</td>
+                            </tr>
+                            <tr>
+                                <td>Vinoth kumar</td>
+                                <td>145</td>
+                                <td>124</td>
+                                <td>Jane Cooper</td>
+                                <td>Status</td>
+                            </tr>
+                            <tr>
+                                <td>Anuj kumar</td>
+                                <td>145</td>
+                                <td>124</td>
+                                <td>Jane Cooper</td>
+                                <td>Status</td>
+                            </tr>
+                            <tr>
+                                <td>Anuj kumar</td>
+                                <td>145</td>
+                                <td>124</td>
+                                <td>Jane Cooper</td>
+                                <td>Status</td>
+                            </tr>
+                            <tr>
+                                <td>Anuj kumar</td>
+                                <td>145</td>
+                                <td>124</td>
+                                <td>Jane Cooper</td>
+                                <td>Status</td>
+                            </tr>
+                            <tr>
+                                <td>Anuj kumar</td>
+                                <td>145</td>
+                                <td>124</td>
+                                <td>Jane Cooper</td>
+                                <td>Status</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- main content end -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="file/js/lightslider.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#lightSlider").lightSlider({
+                item: 5,
+                pauseOnHover: true,
+                controls: true,
+                autoWidth: false,
+                slideMove: 1,
+                slideMargin: 15 ,
+                pause: 5000,
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: {
+                        item: 3
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                        item: 2
+                        }
+                    }
+                ]
+            });
+            });
+      </script>
+</body>
+</html>

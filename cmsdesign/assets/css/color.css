@@ -1,0 +1,13 @@
+/* #menu-top-menu-1 li{
+    border-bottom:none
+} */
+:root {
+    --primary-color: #3076df;
+    --orange-color: #FF7C32;
+    --white-color: #fff;
+    --red-color: #FF4235;
+    --green-color: #67D5B1;
+    --grey-color: rgba(0, 0, 0, 0.05);
+  
+  }
+  
